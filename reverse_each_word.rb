@@ -5,5 +5,5 @@ def reverse_each_word(phrase)
     output = words.reverse
     backwards_words.push(output)
   end
-  return backwards_words
+  return backwards_words.join(" ")
 end
